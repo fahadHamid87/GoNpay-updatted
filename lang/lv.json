@@ -525,6 +525,16 @@
   "legal": "Tiesiska atbilstība",
   "method": "Lojalitātes programmu izmantošanas metodes",
   "lyCard": "Esošās lojalitātes kartes pievienošana",
-  "ordering":"Jaunas lojalitātes kartes pasūtīšana"
+  "ordering":"Jaunas lojalitātes kartes pasūtīšana",
+  "CEO":"Izpilddirektors un īpašnieks, Vision Trust",
+    "emailPlaceholder": "E-pasta adrese",
+  "marketingDirector": "Mārketinga direktors, Elevate Brands",
+  "founderTechInnovations": "Dibinātājs, Tech Innovations",
+    "retail": "Mazumtirdzniecības vadītājs",
+    "market": "Mārketinga speciālists",
+    "Software": "Programmatūras inženieris",
+     "businessOwn": "Uzņēmējs",
+     "std": "Students"
+
 
   }

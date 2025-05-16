@@ -44,18 +44,23 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-20">
             <!-- Newsletter Column (Left-aligned) -->
             <div class="flex flex-col">
-                <h3 class="text-gray-800 text-xl font-bold mb-4 text-left">
-                    <?= $translations['subscribe_to_our_newsletter'] ?? "Subscribe To Our Newsletter" ?>
-                </h3>
+               <h3 class="text-gray-800 text-xl font-bold mb-4 text-left">
+                   <?= $translations['subscribe_to_our_newsletter'] ?? "Subscribe To Our Newsletter" ?> 
+       </h3>
+    
                 <div class="flex flex-col pe-12">
                     <div class="flex items-center border-b border-gray-300 pb-2 mb-4">
-                        <input class="w-full bg-transparent focus:outline-none text-gray-700" placeholder="Email address" type="email" />
+                 <input 
+  class="w-full bg-transparent focus:outline-none text-gray-700" 
+  placeholder="<?= $translations['emailPlaceholder'] ?? 'Email address' ?>" 
+  type="email" 
+/>
                         <button class="bg-gonpay-orange text-white font-medium py-1 px-4 rounded-full hover:bg-opacity-90 transition-colors ml-2">
                             <?= $translations['subscribe'] ?? "Subscribe" ?>
                         </button>
                     </div>
                     <p class="text-gray-500 text-sm mt-2 text-left">
-                        <?= $translations['by_subscribing_you_agree_to_our_privacy_policy_and'] ?? "By subscribing, you agree to our Privacy Policy and consent to receive updates from us." ?>
+                       <a href="/legal_agreement.php"> <?= $translations['by_subscribing_you_agree_to_our_privacy_policy_and'] ?? "By subscribing, you agree to our Privacy Policy and consent to receive updates from us." ?></a>
                     </p>
                 </div>
             </div>

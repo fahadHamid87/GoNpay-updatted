@@ -522,7 +522,16 @@
   "legal": "Õiguslik vastavus",
     "method": "Lojalaususprogrammide kasutamise viisid",
   "lyCard": "Olemasoleva lojalaususkaardi lisamine",
-  "ordering": "Uue lojalaususkaardi tellimine"
+  "ordering": "Uue lojalaususkaardi tellimine",
+  "CEO":"Tegevjuht ja omanik, Vision Trust",
+  "marketingDirector":"Turundusjuht, Elevate Brands",
+  "founderTechInnovations":"Asutaja ,   Tech Innovations",
+  "emailPlaceholder":"E-posti aadress" ,
+   "retail": "Jaemüügi juht",
+  "market": "Turunduse spetsialist",
+  "Software": "Tarkvarainsener",
+  "businessOwn": "Ettevõtja",
+  "std": "Üliõpilane"
 
 
 

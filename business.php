@@ -291,24 +291,26 @@ include 'components/header.php';
         <div class="max-w-4xl mx-auto" data-aos="fade-up" data-aos-delay="200">
             <!-- Testimonial Slider Container -->
             <div class="relative testimonial-container">
+
                 <?php
                 // Testimonial data
+               
                 $testimonials = [
                     [
                         'name' => 'Cameron Williamson',
-                        'position' => 'CEO & Owner, Vision Trust',
+                        'position' => $translations['CEO'] ?? 'CEO & Owner, Vision Trust',
                         'quote' => $translations['cameron_williamson'] ??  'Our experience with the company has been exceptional. Their loyalty program has helped us retain customers and increase sales.',
                         'image' => 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80'
                     ],
                     [
                         'name' => 'Esther Howard',
-                        'position' => 'Marketing Director, Elevate Brands',
+                        'position' => $translations['marketingDirector'] ?? 'Marketing Director, Elevate Brands',
                         'quote' => $translations['esther_howard'] ?? 'The loyalty system from GoNpay has transformed how we interact with our customers. The ease of setup and the robust features have made it an invaluable tool for our business.',
                         'image' => 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80'
                     ],
                     [
                         'name' => 'Robert Fox',
-                        'position' => 'Founder, Tech Innovations',
+                        'position' => $translations['founderTechInnovations'] ?? 'Founder, Tech Innovations',
                         'quote' => $translations['robert_fox'] ?? "We've seen a dramatic increase in customer retention since implementing GoNpay. The mobile app integration was seamless, and our customers love the convenience it provides.",
                         'image' => 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80'
                     ]

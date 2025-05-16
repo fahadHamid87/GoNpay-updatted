@@ -62,7 +62,7 @@
   "buy_coupon": "Buy Coupon",
   "by_adding_card_you_agree_to_tc": "By adding card you agree to T&C",
   "by_subscribing_you_agree_to_our": "By subscribing, you agree to our",
-  "by_subscribing_you_agree_to_our_privacy_policy_and": "By subscribing, you agree to our Privacy Policy and consent to receive updates from us.",
+  "by_subscribing_you_agree_to_our_privacy_policy_and": "By subscribing, you agree to our Privacy Policy and consent to receive updates from us",
   "caffeine": "CAFFEINE",
   "category": "CATEGORY",
   "cvv": "CVV",
@@ -89,7 +89,7 @@
   "company_name": "Company Name",
   "contact_information": "Contact Information",
   "contact_us": "Contact Us",
-  "contact_our_support_team_for_further_assistance": "Contact our support team for further assistance.",
+  "contact_our_support_team_for_further_assistance": "Contact our support team for further assistance",
   "contact_us_2": "Contact us",
   "contact_us_3": "Contact us:",
   "corporate_plan": "Corporate Plan",
@@ -288,7 +288,7 @@
   "users_say": "Users Say",
   "vat_code": "VAT Code",
   "values": "Values",
-  "vero_homero_perfecto_mei_ut_sonet_aperiam_an_nec_n": "Vero homero perfecto mei ut, sonet aperiam an nec. Ni\n                nec dict altera legimu. Me vita de lege ndos expet end is ad.\n                Ex \n                mei omita aliu mi ando",
+  "vero_homero_perfecto_mei_ut_sonet_aperiam_an_nec_n": "We proudly collaborate with industry-leading partners to deliver the highest quality services and solutions. Together, we build trust, innovation, and lasting value for our clients.",
   "view_all": "View All",
   "view_more": "View More",
   "view_and_manage_your_loyalty_cards": "View and manage your loyalty cards",
@@ -311,7 +311,7 @@
   "infogonpaycom": "info@gonpay.com",
   "k": "k+",
   "or_download_our_app_and_start_earning_rewards_toda": "or download our app and start earning rewards today!",
-  "with_every_your_purchase_sign_up_for_our_loyalty_a": "with Every your Purchase Sign up for our loyalty app and start earning rewards today!",
+  "with_every_your_purchase_sign_up_for_our_loyalty_a": "Sign up for our loyalty app and start earning rewards today with Every your Purchase!",
   "with_special_offers_and_events_receive_notificatio": "with Special Offers and Events Receive notifications about new offers, events, & exciting updates.",
   "xyz": "xyz...",
   "2025_gonpay_all_rights_reserved": "© 2025 GoNpay. All Rights Reserved",
@@ -497,7 +497,8 @@
   "section_14_subcontent_3": "The Consumer must inform GoNpay via channels and methods described in this Agreement in case he/she would like to stop using GoNpay services and to terminate the Consumer Agreement.",
   "section_14_subcontent_4": "GoNpay has right to unilaterally amend/change this Consumer Agreement while publicly announcing a new version in GoNpay Internet page or in the Mobile wallet. The Consumer can download or print the current version of the Consumer Agreement from Internet page.",
   "section_14_subcontent_5": "This Agreement is made, interpreted and its terms and conditions are executed according to legislation of Republic of Lithuania. Any disputes between parties of this Agreement are being solved by negotiations or according to legislation of Republic of Lithuania if negotiations fail.",
-  "section_14_subcontent_6": "Any unsolved disputes arising or related from/to this Agreement are being solved at a competent court in Vilnius."
+  "section_14_subcontent_6": "Any unsolved disputes arising or related from/to this Agreement are being solved at a competent court in Vilnius.",
+  "email_placeholder": "Email Address"
 
 
 

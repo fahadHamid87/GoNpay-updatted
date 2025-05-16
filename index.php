@@ -141,38 +141,38 @@ include 'components/header.php';
     </section>
     <!-- PHP Array for Testimonials -->
     <?php
-    $testimonials = [
+  $testimonials = [
         [
             'name' => 'Kristina P.',
-            'role' => 'Student',
+            'role' => $translations['std'] ?? 'Student',
             'text' => $translations['kristina_p'] ?? 'Gonpay is fantastic for managing a wide variety of cards, from memberships to coupons, all in one app! It\'s a must-have for staying organized and making life easier.',
             'image' => 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
             'avatar' => 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80'
         ],
         [
             'name' => 'Michael T.',
-            'role' => 'Business Owner',
+            'role' => $translations['businessOwn'] ?? 'Business Owner',
             'text' => $translations['michael_t'] ?? 'As someone who carries multiple loyalty cards, this app has been a game-changer. I no longer forget which cards I have or miss out on rewards. Highly recommended!',
             'image' => 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
             'avatar' => 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80'
         ],
         [
             'name' => 'David R.',
-            'role' => 'Software Engineer',
+            'role' => $translations['Software'] ?? 'Software Engineer',
             'text' => $translations['david_r'] ?? 'The UI is clean and intuitive. I appreciate how easy it is to add new cards and track my rewards. The notification feature for special offers is particularly useful.',
             'image' => 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
             'avatar' => 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80'
         ],
         [
             'name' => 'Sarah J.',
-            'role' => 'Marketing Specialist',
+            'role' => $translations['market'] ?? 'Marketing Specialist',
             'text' => $translations['sarah_j'] ?? 'Gonpay has simplified my shopping experience tremendously. The app is fast, reliable, and keeps all my loyalty cards in one place. The special offers are a nice bonus!',
             'image' => 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
             'avatar' => 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80'
         ],
         [
             'name' => 'Alex K.',
-            'role' => 'Retail Manager',
+            'role' =>  $translations['retail'] ?? 'Retail Manager',
             'text' => $translations['alex_k'] ?? 'From both a customer and business perspective, this app delivers. It\'s streamlined my personal loyalty cards and given me insights into customer retention for my store.',
             'image' => 'https://images.unsplash.com/photo-1569913486515-b74bf7751574?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
             'avatar' => 'https://images.unsplash.com/photo-1569913486515-b74bf7751574?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80'
