@@ -650,57 +650,66 @@ html {
 <!-- Add this JavaScript -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    const sections = document.querySelectorAll('[id^="section-"]');
-    const navLinks = document.querySelectorAll('.nav-link');
+  const navLinks = document.querySelectorAll('.nav-link');
 
-    // Smooth scroll to section
-    navLinks.forEach(link => {
-        link.addEventListener('click', (e) => {
-            e.preventDefault();
-            const targetId = link.getAttribute('href');
-            const targetSection = document.querySelector(targetId);
-            const offset = 100; // Adjust scroll offset as needed
+  // Only run if nav links use hash hrefs (e.g. #section-1)
+  if (!navLinks.length || !navLinks[0].getAttribute('href').startsWith('#')) {
+    return; // Skip script if no hash hrefs found
+  }
 
-            window.scrollTo({
-                top: targetSection.offsetTop - offset,
-                behavior: 'smooth'
-            });
+  const sections = document.querySelectorAll('[id^="section-"]');
 
-            // Update active class immediately
-            navLinks.forEach(navLink => navLink.classList.remove('active', 'text-gonpay-orange',
-                'bg-orange-50'));
-            link.classList.add('active', 'text-gonpay-orange', 'bg-orange-50');
-        });
+  // Smooth scroll to section on nav link click
+  navLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const targetId = link.getAttribute('href');
+      const targetSection = document.querySelector(targetId);
+
+      if (!targetSection) return; // Safety check
+
+      const offset = 100; // Adjust scroll offset if needed
+
+      window.scrollTo({
+        top: targetSection.offsetTop - offset,
+        behavior: 'smooth'
+      });
+
+      // Update active class immediately
+      navLinks.forEach(navLink => navLink.classList.remove('active', 'text-gonpay-orange', 'bg-orange-50'));
+      link.classList.add('active', 'text-gonpay-orange', 'bg-orange-50');
     });
+  });
 
-    // Update active section on scroll
-    function updateActiveSection() {
-        const scrollPosition = window.scrollY;
+  // Update active nav link on scroll
+  function updateActiveSection() {
+    const scrollPosition = window.scrollY;
 
-        sections.forEach(section => {
-            const sectionTop = section.offsetTop - 150;
-            const sectionBottom = sectionTop + section.offsetHeight;
-            const sectionId = section.getAttribute('id');
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 150;
+      const sectionBottom = sectionTop + section.offsetHeight;
+      const sectionId = section.getAttribute('id');
 
-            if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
-                navLinks.forEach(link => {
-                    link.classList.remove('active', 'text-gonpay-orange', 'bg-orange-50');
-                    link.classList.add('text-gray-600');
+      if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+        navLinks.forEach(link => {
+          link.classList.remove('active', 'text-gonpay-orange', 'bg-orange-50');
+          link.classList.add('text-gray-600');
 
-                    if (link.getAttribute('href') === `#${sectionId}`) {
-                        link.classList.remove('text-gray-600');
-                        link.classList.add('active', 'text-gonpay-orange', 'bg-orange-50');
-                    }
-                });
-            }
+          if (link.getAttribute('href') === `#${sectionId}`) {
+            link.classList.remove('text-gray-600');
+            link.classList.add('active', 'text-gonpay-orange', 'bg-orange-50');
+          }
         });
-    }
+      }
+    });
+  }
 
-    // Initial check and scroll event listener
-    updateActiveSection();
-    window.addEventListener('scroll', updateActiveSection);
+  // Initial call and event listener for scroll
+  updateActiveSection();
+  window.addEventListener('scroll', updateActiveSection);
 });
 </script>
+
 
 <?php include 'components/footer.php'; ?>
 

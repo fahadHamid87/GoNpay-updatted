@@ -1,3 +1,4 @@
+
 <?php require_once __DIR__ . '/../core/lang.php'; ?>
 
 <!DOCTYPE html>
@@ -205,12 +206,13 @@
                 <a href="index.php" class="mr-6 lg:mr-12">
                     <img src="images/logo.png" alt="GoNpay Logo" class="h-8 lg:h-10">
                 </a>
-                <nav class="hidden lg:flex space-x-10">
-                    <a href="index.php"
-                        class="nav-link text-[#1A1A1A] font-medium text-base hover:text-gonpay-orange transition-colors"><?= t('explore_loyalty') ?></a>
-                    <a href="company.php"
-                        class="nav-link text-[#1A1A1A] font-medium text-base hover:text-gonpay-orange transition-colors"><?= t('about_us') ?></a>
-                </nav>
+              <nav class="hidden lg:flex space-x-10">
+    <a href="/index.php"
+       class="nav-link text-[#1A1A1A] font-medium text-base hover:text-gonpay-orange transition-colors"><?= t('explore_loyalty') ?></a>
+    <a href="/company.php"
+       class="nav-link text-[#1A1A1A] font-medium text-base hover:text-gonpay-orange transition-colors"><?= t('about_us') ?></a>
+</nav>
+
                 <a href="business.php"
                     class="hidden md:block btn-orange bg-gonpay-orange text-white font-medium py-2.5 px-6 rounded-full ms-12"><?= t('for_business') ?></a>
             </div>
@@ -310,3 +312,5 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 </script>
+
+
