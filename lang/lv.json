@@ -534,7 +534,10 @@
     "market": "Mārketinga speciālists",
     "Software": "Programmatūras inženieris",
      "businessOwn": "Uzņēmējs",
-     "std": "Students"
+     "std": "Students",
+       "Basic": "Lieliski piemērots iesācējiem un mazajiem uzņēmumiem. Parādiet savu zīmolu ar digitālo dizaina karti, pakalpojumu informāciju un pamata lojalitātes iespējām — pilnīgi bez maksas.",
+  "Business": "Ideāli piemērots augošiem uzņēmumiem, kas vēlas paplašināties. Atveriet jaudīgus rīkus – uzlabotu analītiku, automatizētas kampaņas un personalizētus paziņojumus, lai efektīvāk iesaistītu klientus.",
+  "corporate-plan": "Piemērots lielām komandām un uzņēmumiem. Izmantojiet profesionālus segmentēšanas rīkus, padziļinātu mārketinga automatizāciju un prioritāru atbalstu, lai maksimāli palielinātu klientu iesaisti."
 
 
   }

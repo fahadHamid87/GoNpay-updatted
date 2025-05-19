@@ -59,9 +59,11 @@
                             <?= $translations['subscribe'] ?? "Subscribe" ?>
                         </button>
                     </div>
-                    <p class="text-gray-500 text-sm mt-2 text-left">
-                       <a href="/legal_agreement.php"> <?= $translations['by_subscribing_you_agree_to_our_privacy_policy_and'] ?? "By subscribing, you agree to our Privacy Policy and consent to receive updates from us." ?></a>
-                    </p>
+                   <p class="text-gray-500 text-sm mt-2 text-left">
+  <a href="/legal_agreement.php" class="hover:text-[#ff8719] transition-colors duration-200">
+    <?= $translations['by_subscribing_you_agree_to_our_privacy_policy_and'] ?? "By subscribing, you agree to our Privacy Policy and consent to receive updates from us." ?>
+  </a>
+</p>
                 </div>
             </div>
 

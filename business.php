@@ -526,7 +526,8 @@ include 'components/header.php';
                             </div>
                         </div>
                         <p class="text-gray-500 text-sm mb-8 group-hover:text-white transition">
-                            <?= $translations['lorem_ipsum_dolor_sit_amet_doloroli_sitiol_conse_c'] ?? "Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit." ?>
+                            <?= $translations['Basic'] ?? " Perfect for individuals and small businesses starting out.
+Showcase your brand with a digital design card, service details, and basic customer loyalty features — all at no cost." ?>
                         </p>
                         <div class="text-4xl font-bold mb-8 text-gray-900 group-hover:text-white transition">
                             <?= $translations['free'] ?? "Free" ?></div>
@@ -578,8 +579,8 @@ include 'components/header.php';
                                 </li>
                                 <li class="flex items-start">
                                     <div class="mr-3 mt-1">
-                                        <div
-                                            class="w-5 h-5 bg-gonpay-orange rounded-full flex items-center justify-center transition-colors duration-300 group-hover:bg-white">
+                                         <div
+                                         class="w-5 h-5 bg-gonpay-orange rounded-full flex items-center justify-center transition-colors duration-300 group-hover:bg-white">
                                             <svg class="h-3 w-3 text-white transition-colors duration-300 group-hover:text-gonpay-orange"
                                                 fill="none" stroke="currentColor" viewbox="0 0 24 24">
                                                 <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"
@@ -587,8 +588,8 @@ include 'components/header.php';
                                             </svg>
                                         </div>
                                     </div>
-                                    <span
-                                        class="text-gray-600 text-sm group-hover:text-white transition"><?= $translations['customizable_loyalty_rewards'] ?? "Customizable loyalty rewards" ?></span>
+                                   <span
+                                        class="text-gray-600 text-sm group-hover:text-white transition"><?= $translations['customizable_loyalty_rewards'] ?? "Customizable loyalty rewards" ?></span> 
                                 </li>
                             </ul>
                         </div>
@@ -614,7 +615,8 @@ include 'components/header.php';
                             </div>
                         </div>
                         <p class="text-gray-500 text-sm mb-8 group-hover:text-white transition">
-                            <?= $translations['lorem_ipsum_dolor_sit_amet_doloroli_sitiol_conse_c'] ?? "Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit." ?>
+                            <?= $translations['Business'] ?? "Ideal for growing businesses ready to scale.
+Unlock powerful tools like advanced analytics, automated campaigns, and personalized notifications to engage and convert more customers.." ?>
                         </p>
                         <div class="text-4xl font-bold mb-8 text-gray-900 group-hover:text-white transition">
                             <?= $translations['49'] ?? "€49" ?></div>
@@ -652,7 +654,7 @@ include 'components/header.php';
                                 </li>
                                 <li class="flex items-start">
                                     <div class="mr-3 mt-1">
-                                        <div
+                                      <div
                                             class="w-5 h-5 bg-gonpay-orange rounded-full flex items-center justify-center transition-colors duration-300 group-hover:bg-white">
                                             <svg class="h-3 w-3 text-white transition-colors duration-300 group-hover:text-gonpay-orange"
                                                 fill="none" stroke="currentColor" viewbox="0 0 24 24">
@@ -679,8 +681,8 @@ include 'components/header.php';
                                         class="text-gray-600 text-sm group-hover:text-white transition"><?= $translations['personalized_notifications'] ?? "Personalized notifications" ?></span>
                                 </li>
                             </ul>
-                        </div>
-                    </div>
+                        </div> 
+                    </div> 
                     <div class="p-8 pt-0 mt-auto">
                         <a class="block w-full text-center py-4 px-4 bg-gonpay-orange text-white font-medium rounded-full transition-colors duration-300 group-hover:bg-white group-hover:text-gonpay-orange"
                             href="register.php"><?= $translations['get_started'] ?? "Get Started" ?></a>
@@ -702,7 +704,8 @@ include 'components/header.php';
                             </div>
                         </div>
                         <p class="text-gray-500 text-sm mb-8 group-hover:text-white transition">
-                            <?= $translations['lorem_ipsum_dolor_sit_amet_doloroli_sitiol_conse_c'] ?? "Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit." ?>
+                            <?= $translations['corporate-plan'] ?? "Tailored for large teams and enterprises.
+Take advantage of professional segmentation tools, in-depth marketing automation, and priority support to optimize customer engagement at scale." ?>
                         </p>
                         <div class="text-4xl font-bold mb-8 text-gray-900 group-hover:text-white transition">
                             <?= $translations['special_offer'] ?? "Special offer" ?></div>
