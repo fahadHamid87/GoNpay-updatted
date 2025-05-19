@@ -532,10 +532,11 @@
   "Software": "Tarkvarainsener",
   "businessOwn": "Ettevõtja",
   "std": "Üliõpilane",
-    "Basic": "Ideaalne alustajatele ja väikestele ettevõtetele. Kuva oma bränd digitaalse disainkaardiga, teenuste teabega ja põhilojaalsusfunktsioonidega — täiesti tasuta.",
-  "Business": "Ideaalne kasvavatele ettevõtetele, kes soovivad laieneda. Avage võimsad tööriistad: täiustatud analüütika, automatiseeritud kampaaniad ja isikupärastatud teavitused – klientide paremaks kaasamiseks.",
-  "corporate-plan": "Kohandatud suurtele meeskondadele ja ettevõtetele. Kasutage professionaalseid segmenteerimistööriistu, põhjalikku turundusautomaatikat ja prioriteetset tuge, et maksimeerida kliendisuhtlust."
-
+    "Basic": "Põhiplaan väikestele ettevõtetele – tasuta alustamiseks.",
+  "Business": "Äriplaan keskmise suurusega ettevõtetele.",
+  "corporate-plan": "Ettevõtte plaan suuremahulistele ja suurtele ettevõtetele",
+  "analytics_dashboard":"Analüütika juhtpaneel",
+   "marketing_campaigns": "Turunduskampaaniad"  
 
 
 }

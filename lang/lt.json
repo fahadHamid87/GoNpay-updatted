@@ -542,9 +542,11 @@
   "Software": "Programinės įrangos inžinierius",
   "businessOwn": "Verslo savininkas",
   "std": "Studentas",
-    "Basic": "Puikiai tinka pradedantiesiems ir mažoms įmonėms. Pateikite savo prekės ženklą su skaitmenine dizaino kortele, paslaugų informacija ir pagrindinėmis lojalumo funkcijomis — visiškai nemokamai.",
-  "Business": "Idealu augančioms įmonėms, siekiančioms plėstis. Atrakinkite galingus įrankius: pažangią analizę, automatizuotas kampanijas ir suasmenintus pranešimus – siekiant efektyviau įtraukti klientus.",
-  "corporate-plan": "Pritaikyta didelėms komandoms ir įmonėms. Pasinaudokite profesionaliais segmentavimo įrankiais, gilumine rinkodaros automatika ir prioritetiniu palaikymu, kad maksimaliai padidintumėte klientų įtraukimą."
+    "Basic": "Pagrindinis planas mažoms įmonėms – nemokamas, kad galėtumėte lengvai pradėti.",
+  "Business": "Verslo planas vidutinėms įmonėms",
+  "corporate-plan": "Korporatyvinis planas didelio masto ir dydžio įmonėms",
+  "analytics_dashboard": "Analitikos informacijos suvestinė",
+   "marketing_campaigns": "Rinkodaros kampanijos"
 
 
 

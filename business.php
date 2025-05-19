@@ -526,8 +526,7 @@ include 'components/header.php';
                             </div>
                         </div>
                         <p class="text-gray-500 text-sm mb-8 group-hover:text-white transition">
-                            <?= $translations['Basic'] ?? " Perfect for individuals and small businesses starting out.
-Showcase your brand with a digital design card, service details, and basic customer loyalty features — all at no cost." ?>
+                            <?= $translations['Basic'] ?? " A Basic plan for small Companies free to help you get started." ?>
                         </p>
                         <div class="text-4xl font-bold mb-8 text-gray-900 group-hover:text-white transition">
                             <?= $translations['free'] ?? "Free" ?></div>
@@ -615,8 +614,7 @@ Showcase your brand with a digital design card, service details, and basic custo
                             </div>
                         </div>
                         <p class="text-gray-500 text-sm mb-8 group-hover:text-white transition">
-                            <?= $translations['Business'] ?? "Ideal for growing businesses ready to scale.
-Unlock powerful tools like advanced analytics, automated campaigns, and personalized notifications to engage and convert more customers.." ?>
+                            <?= $translations['Business'] ?? "Business plan for medium-sized companies" ?>
                         </p>
                         <div class="text-4xl font-bold mb-8 text-gray-900 group-hover:text-white transition">
                             <?= $translations['49'] ?? "€49" ?></div>
@@ -636,7 +634,7 @@ Unlock powerful tools like advanced analytics, automated campaigns, and personal
                                         </div>
                                     </div>
                                     <span
-                                        class="text-gray-600 text-sm group-hover:text-white transition"><?= $translations['advanced_analytics_dashboard'] ?? "Advanced analytics dashboard" ?></span>
+                                        class="text-gray-600 text-sm group-hover:text-white transition"><?= $translations['analytics_dashboard'] ?? "Analytics dashboard" ?></span>
                                 </li>
                                 <li class="flex items-start">
                                     <div class="mr-3 mt-1">
@@ -650,7 +648,7 @@ Unlock powerful tools like advanced analytics, automated campaigns, and personal
                                         </div>
                                     </div>
                                     <span
-                                        class="text-gray-600 text-sm group-hover:text-white transition"><?= $translations['automated_marketing_campaigns'] ?? "Automated marketing campaigns" ?></span>
+                                        class="text-gray-600 text-sm group-hover:text-white transition"><?= $translations['marketing_campaigns'] ?? "Marketing campaigns" ?></span>
                                 </li>
                                 <li class="flex items-start">
                                     <div class="mr-3 mt-1">
@@ -704,8 +702,7 @@ Unlock powerful tools like advanced analytics, automated campaigns, and personal
                             </div>
                         </div>
                         <p class="text-gray-500 text-sm mb-8 group-hover:text-white transition">
-                            <?= $translations['corporate-plan'] ?? "Tailored for large teams and enterprises.
-Take advantage of professional segmentation tools, in-depth marketing automation, and priority support to optimize customer engagement at scale." ?>
+                            <?= $translations['corporate-plan'] ?? "Corporate plan for large scale and size companies" ?>
                         </p>
                         <div class="text-4xl font-bold mb-8 text-gray-900 group-hover:text-white transition">
                             <?= $translations['special_offer'] ?? "Special offer" ?></div>
