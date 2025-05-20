@@ -497,7 +497,23 @@
   "section_14_subcontent_4": "GoNpay has right to unilaterally amend/change this Consumer Agreement while publicly announcing a new version in GoNpay Internet page or in the Mobile wallet. The Consumer can download or print the current version of the Consumer Agreement from Internet page.",
   "section_14_subcontent_5": "This Agreement is made, interpreted and its terms and conditions are executed according to legislation of Republic of Lithuania. Any disputes between parties of this Agreement are being solved by negotiations or according to legislation of Republic of Lithuania if negotiations fail.",
   "section_14_subcontent_6": "Any unsolved disputes arising or related from/to this Agreement are being solved at a competent court in Vilnius.",
-  "email_placeholder": "Email Address"
+   "email_placeholder": "Email address",
+  "CEO": "General Director and Owner, Vision Trust",
+  "marketingDirector": "Marketing Director, Elevate Brands",
+  "founderTechInnovations": "Founder, Tech Innovations",
+  "emailPlaceholder": "Email address",
+  
+  "retail": "Retail Manager",
+  "market": "Marketing Specialist",
+  "Software": "Software Engineer",
+  "businessOwn": "Business Owner",
+  "std": "Student",
+  "Basic": "Basic plan for small companies",
+  "Business": "Business plan for medium companies",
+  "corporate-plan": "Business plan for large companies",
+  "analytics_dashboard": "Analytics Dashboard",
+  "marketing_campaigns": "Marketing Campaigns"
+  
 
 
 
