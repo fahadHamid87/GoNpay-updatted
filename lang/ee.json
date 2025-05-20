@@ -532,9 +532,9 @@
   "Software": "Tarkvarainsener",
   "businessOwn": "Ettevõtja",
   "std": "Üliõpilane",
-    "Basic": "Põhiplaan väikestele ettevõtetele – tasuta alustamiseks.",
-  "Business": "Äriplaan keskmise suurusega ettevõtetele.",
-  "corporate-plan": "Ettevõtte plaan suuremahulistele ja suurtele ettevõtetele",
+    "Basic": "Põhiplaan väikestele ettevõtetele",
+  "Business": "Äri plaan keskmise suurusega ettevõtetele",
+  "corporate-plan": "Äri plaan suurtele ettevõtetele",
   "analytics_dashboard":"Analüütika juhtpaneel",
    "marketing_campaigns": "Turunduskampaaniad"  
 

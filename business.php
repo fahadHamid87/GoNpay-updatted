@@ -526,7 +526,7 @@ include 'components/header.php';
                             </div>
                         </div>
                         <p class="text-gray-500 text-sm mb-8 group-hover:text-white transition">
-                            <?= $translations['Basic'] ?? " A Basic plan for small Companies free to help you get started." ?>
+                            <?= $translations['Basic'] ?? " A Basic plan for small Companies" ?>
                         </p>
                         <div class="text-4xl font-bold mb-8 text-gray-900 group-hover:text-white transition">
                             <?= $translations['free'] ?? "Free" ?></div>
@@ -614,7 +614,7 @@ include 'components/header.php';
                             </div>
                         </div>
                         <p class="text-gray-500 text-sm mb-8 group-hover:text-white transition">
-                            <?= $translations['Business'] ?? "Business plan for medium-sized companies" ?>
+                            <?= $translations['Business'] ?? "Business plan for medium companies" ?>
                         </p>
                         <div class="text-4xl font-bold mb-8 text-gray-900 group-hover:text-white transition">
                             <?= $translations['49'] ?? "€49" ?></div>
@@ -702,7 +702,7 @@ include 'components/header.php';
                             </div>
                         </div>
                         <p class="text-gray-500 text-sm mb-8 group-hover:text-white transition">
-                            <?= $translations['corporate-plan'] ?? "Corporate plan for large scale and size companies" ?>
+                            <?= $translations['corporate-plan'] ?? "Business plan for large  companies" ?>
                         </p>
                         <div class="text-4xl font-bold mb-8 text-gray-900 group-hover:text-white transition">
                             <?= $translations['special_offer'] ?? "Special offer" ?></div>

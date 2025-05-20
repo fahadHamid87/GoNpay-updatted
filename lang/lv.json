@@ -535,9 +535,9 @@
     "Software": "Programmatūras inženieris",
      "businessOwn": "Uzņēmējs",
      "std": "Students",
-       "Basic": "Pamata plāns mazajiem uzņēmumiem — bez maksas, lai sāktu viegli.",
-  "Business": "Biznesa plāns vidēja lieluma uzņēmumiem",
-  "corporate-plan": "Korporatīvais plāns lieliem un liela mēroga uzņēmumiem",
+       "Basic": "Pamatplāns mazajiem uzņēmumiem",
+  "Business": "Biznesa plāns vidējiem uzņēmumiem",
+  "corporate-plan": "Biznesa plāns lieliem uzņēmumiem",
   "analytics_dashboard":"Analītikas informācijas panelis",
   "marketing_campaigns": "Mārketinga kampaņas"
 
